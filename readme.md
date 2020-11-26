@@ -1,5 +1,5 @@
 # Gallery
-simple website describe a script for uploading photos in you account and share it with other pepole and you comment in you photos and others too.
+simple website describe a script for uploading photos in you account and share it with other pepole and you can comment in you photos and others too.
 ## Table of Contents
 
 * [Abstract](#abstract)
