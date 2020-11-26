@@ -1,0 +1,305 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.home_page_photo {
+    width: 200px;
+    height: 150px !important;
+}
+/* home pagination  */
+.pager .active a {
+    background-color:#000;
+    color: #fff;
+}
+.pager .active a:hover {
+    background-color:#000 !important;
+    color: #fff !important;
+}
+
+.navbar-inverse {
+    background-color: white !important;
+    border-color: white  !important;
+
+}
+.navbar-inverse .navbar-toggle {
+    
+    border-color: #999;   
+    color: #999;
+    background-color:  #999 !important;
+}
+.navbar-inverse .navbar-toggle:hover {
+    border-color: #999;   
+    color: #999;
+    background-color:  #999;
+
+}
+.navbar-brand:hover {
+
+    color: black !important;
+    background-color: transparent;
+
+}
+.top-nav > li > a:hover, .top-nav > li > a:focus, .top-nav > .open > a, .top-nav > .open > a:hover, .top-nav > .open > a:focus {
+
+    color: #020202 !important;
+    background-color: #9d9d9d !important;
+    
+
+}
+.navbar-inverse .navbar-nav > li > a {
+
+    color: #9d9d9d;
+    font-size: 15px;
+
+} 
+
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+
+    color: #020202 !important;
+    background-color: transparent !important;
+    
+}
+
+/* edit photo page  */
+.admin-photo-thumbnail
+{
+    width: 200px;
+    border-radius: 5px;
+}
+.photo-info-box {
+
+    border: 1px solid #e5e5e5;
+     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     background-color: #fff;
+   
+   
+   }
+   
+   .info-box-header {
+    padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background-color: #fff;
+   
+   }
+   .user_image {
+       width: 62px;
+       height: 62px;
+   }
+   
+     
+   
+   
+   .photo-info-box .box-inner {
+   border-top: 1px solid #e5e5e5;
+   background-color: #fff;
+   padding: 6px;
+   
+   }
+   
+   .photo-info-box .box-inner .text {
+   padding: 7px 9px 19px;
+   
+   }
+   
+   .photo-info-box .box-inner .data {
+   
+       font-weight: bold;
+   }
+   
+   .photo-info-box .info-box-footer{
+   
+   border-top: 1px solid #ddd;
+   background-color: #ddd;
+   padding: 10px;
+   
+   }
+   
+.modal-dialog {
+    width: 90% !important;
+    }
+    
+    .pictuers_link a {
+    font-size: 20px;
+    display: block;
+    color: black;
+    }
+    .action_links a {
+    font-size: 20px;
+    display: block;
+    }
+
+    .modal-body {
+    overflow: auto;
+    height: 500px !important;
+    min-height: 300px !important;
+    }
+    
+    .modal_thumbnails {
+    
+        width: 150px;
+        height: 100px !important;
+    }
+    
+    #set_user_image {
+    
+    margin:10px;
+    
+    }
+    
+    
+    #modal_sidebar {
+    
+    position: fixed !important;
+    
+    }
+    #loginCSS {
+        height:50px;
+        width: 80%;
+        border: none;
+        border-bottom:1px solid #6f0808;
+    }
+    .login-btn {
+        width: 50%;
+        height: 50px;
+        background-color: #6f0808;
+        color: white;
+        border:none;
+        outline: none;
+    }
+     .addon-class{
+        border: none;
+        background-color: transparent;
+        font-size: 25px;
+        color:#6f0808;
+    }
+    .well {
+        border-radius:0px solid transparent;
+        color:black !important;  
+        position: relative;
+        z-index: 1000;
+    }
+    .search {
+        border:3px solid rgb(111, 8, 8);
+        border-radius: 0px;
+        height: 50px;
+        margin: 10px;
+        
+    }
+    .search:hover , .search:focus {
+        border:3px solid rgb(111, 8, 8);
+    }
+    .search-btn {
+        background-color:rgb(111, 8, 8);
+        color:white;
+        border:0px solid #db7c7c;
+        border-radius: 9%;  
+        margin: 10px;
+        height: 50px;
+        margin-left: 10px !important;
+        outline: none;
+    }
+    .search-btn:hover , .search-btn:focus {
+        background-color:rgb(111, 8, 8);
+    }
+    ::placeholder {
+        color:#6f0808;
+        
+    }
+    @media only screen and (max-width: 800px) {
+        .media-query {
+          margin-top:27%;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .join-us {
+          display: none;
+        }
+      }
+    .join-us {
+        background-color:rgb(111, 8, 8) ;
+        position: relative;
+        top:20px;
+        width:250px;
+        height:50px;
+        color:white;
+        border-radius:1px solid   !important;
+        border:1px solid rgb(111, 8, 8)  !important;  
+}
+
+.card {
+    word-wrap: break-word;
+    display:inline-block;
+    width: 25rem;
+    margin: auto;
+    /* border:1px solid gray;  
+    border-radius:10px; */
+    margin-top: 1.25rem;
+    background-color:#570303;
+  }
+  .card-body {
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    background-color:#520404;
+    padding: 1.25rem;
+    
+  }
+  .card-img-top {
+    width:20rem;
+    height:200px;
+  }
+  
+  
+  
+  .cards {
+    text-align: center !important;
+    position: absolute;
+    background-color:#440202;
+
+  }
+  .card-title {
+    color:#683232;
+    font-size:25px;
+    font-weight: bold;
+  }
+  .footer {
+    width:100%;
+    margin-top:10%;
+    background-color:white;
+  }
+  .card:hover {
+      padding-top: 4px;
+      box-shadow: 0px 0px 15px #ff3f3f;
+      background-color:#490303;
+
+
+    }
+   .class-danger
+  {
+    background-color:#6f0808 !important;
+    color:white!important;
+  }
+  .send-feedback {
+    width:80%;
+    height:40px;
+    max-width:80%;
+    min-width: 80%;
+    text-align:center;
+}
+.submit-feedback {
+    width: 200px;
+    height: 40px;
+    background-color: #6f0808;
+    color: white;
+    border:none;
+    outline: none;
+    
+}
+textarea  {
+    height: 100px !important;
+}
